@@ -4,7 +4,35 @@
 	/* ^^^ Forces all elements to include content, padding, and border as part of their width/height calculation: 
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
+body{
+	font-size: 20px;
+	font-family: 'Proza Libre', sans-serif;
 
+}
+h1{
+	font-size: 40px;
+	font-weight: 700;
+	margin: 20px;
+}
+main{
+	width:100%;
+}
+.form{
+	float:left;
+	background-color: #E3E6EC;
+	width:100%;
+	max-width: 500px;
+	text-align: center;
+}
+.result{
+	float:left;
+}
+input {
+	border-radius: 5px;
+}
+.container .form{
+	border-radius:5px;
+}
 /* 
 	Use Google Fonts to make all of the text Proza Libre.
 
@@ -31,6 +59,9 @@
 	The background should be #E3E6EC, and it should align to the middle of its container.
 	
 	Every element should have nice, even padding or margin around it.
+
+
+
 
 	.row elements should be spaced out so they're not touching.
 
