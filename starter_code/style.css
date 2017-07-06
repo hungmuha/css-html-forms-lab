@@ -5,12 +5,12 @@
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
 body{
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Proza Libre', sans-serif;
 
 }
 h1{
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 700;
 	margin: 20px;
 }
@@ -22,7 +22,9 @@ main{
 	background-color: #E3E6EC;
 	width:100%;
 	max-width: 500px;
-	text-align: center;
+	padding-left: 120px;
+
+	margin 5px auto;
 }
 .result{
 	float:left;
@@ -31,7 +33,55 @@ input {
 	border-radius: 5px;
 }
 .container .form{
-	border-radius:5px;
+	border-radius: 5px;
+}
+.row{
+	margin: 6px auto;
+}
+.formGroup{
+	width:100%;
+	display: inline-block;
+}
+.formGroup label{
+	display: block;
+	width:100%;
+}
+#radio1{
+	margin-left: 15px;
+}
+#radio2{
+	margin-left: 15px;
+}
+#radio3{
+	margin-left: 15px;
+}
+#check1{
+	margin-left: 15px;
+}
+#check2{
+	margin-left: 15px;
+}
+#check3{
+	margin-left: 15px;
+}
+.check label{
+	margin-left: 15px;
+}
+.radio label{
+	margin-left: 15px;
+}
+#noun-1{
+	height: 48px;
+	padding:14px;
+}
+#noun-2{
+	height:48px;
+	padding:14px;
+}
+input [type='submit'] {
+	height:48px;
+	padding:14px;
+
 }
 /* 
 	Use Google Fonts to make all of the text Proza Libre.
