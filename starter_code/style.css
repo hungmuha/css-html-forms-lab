@@ -14,26 +14,33 @@ h1{
 	font-weight: 700;
 	margin: 20px;
 }
-main{
+#main{
 	width:100%;
 }
-.form{
+.container{
 	float:left;
+}
+.form{
 	background-color: #E3E6EC;
 	width:100%;
 	max-width: 500px;
-	padding-left: 120px;
-
+	text-align: center;
+	padding:20px 30px;
 	margin 5px auto;
 }
-.result{
-	float:left;
+.results{
+	width:100%;
+	max-width: 500px;
+	background-color: #C8DBB3;
+	padding: 20px 20px;
 }
+
 input {
-	border-radius: 5px;
+	border-radius: 3px;
+	border:1px #CCC;
 }
 .container .form{
-	border-radius: 5px;
+	border-radius: 3px;
 }
 .row{
 	margin: 6px auto;
@@ -43,32 +50,20 @@ input {
 	display: inline-block;
 }
 .formGroup label{
-	display: block;
 	width:100%;
 }
-#radio1{
+#radio1, #radio2, #radio3, #check1, #check2, #check3{
 	margin-left: 15px;
+	border:1px #CCC;
 }
-#radio2{
-	margin-left: 15px;
-}
-#radio3{
-	margin-left: 15px;
-}
-#check1{
-	margin-left: 15px;
-}
-#check2{
-	margin-left: 15px;
-}
-#check3{
-	margin-left: 15px;
-}
+
 .check label{
 	margin-left: 15px;
+	border:1px #CCC;
 }
 .radio label{
 	margin-left: 15px;
+	border:1px #CCC;
 }
 #noun-1{
 	height: 48px;
@@ -78,11 +73,22 @@ input {
 	height:48px;
 	padding:14px;
 }
-input [type='submit'] {
+input[type="submit"] {
 	height:48px;
 	padding:14px;
-
+	float:right;
+	font-weight:bold;
+	background-color: rgb(39, 208, 127);
+	opacity: .5;
 }
+input[type="submit"]:hover {
+	opacity: 1;
+}
+
+textarea{
+	min-height: 100px;
+}
+
 /* 
 	Use Google Fonts to make all of the text Proza Libre.
 
@@ -126,6 +132,7 @@ input [type='submit'] {
 	Text inputs, submit buttons, and select boxes should all be at least 48px tall. The should have 14px of padding around their text. 
 
 	Textareas should be at least 100px tall.
+
 
 	Text inputs, select boxes, and textareas should have a 1px border that's #CCC, and none of the default shadows.
 
