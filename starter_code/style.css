@@ -19,14 +19,23 @@ h1{
 }
 .container{
 	float:left;
-}
-.form{
-	background-color: #E3E6EC;
 	width:100%;
 	max-width: 500px;
-	text-align: center;
-	padding:20px 30px;
+	margin: 2%;
+	height: 100%;
+	border-radius: 5px;
+
+}
+/*.formGroup label{
+	display: block;
+
+}*/
+.formSection{
+	background-color: #E3E6EC;
+	max-width: 500px;
+	padding:20px 10px;
 	margin 5px auto;
+	height: 100%;
 }
 .results{
 	width:100%;
@@ -34,10 +43,14 @@ h1{
 	background-color: #C8DBB3;
 	padding: 20px 20px;
 }
-
-input {
+#verb-1{
+	height: 25px;
+	width:100%;
+}
+input, select{
 	border-radius: 3px;
 	border:1px #CCC;
+	padding:5px;
 }
 .container .form{
 	border-radius: 3px;
@@ -46,32 +59,22 @@ input {
 	margin: 6px auto;
 }
 .formGroup{
+	padding-top: 10px;
+}
+.formGroup #name{
 	width:100%;
 	display: inline-block;
 }
-.formGroup label{
-	width:100%;
-}
-#radio1, #radio2, #radio3, #check1, #check2, #check3{
+
+#radio1, #radio2, #radio3, #check1, #check2, #check3, .check label, .radio label{
 	margin-left: 15px;
 	border:1px #CCC;
 }
 
-.check label{
-	margin-left: 15px;
-	border:1px #CCC;
-}
-.radio label{
-	margin-left: 15px;
-	border:1px #CCC;
-}
-#noun-1{
+#noun-1, #noun-2{
 	height: 48px;
 	padding:14px;
-}
-#noun-2{
-	height:48px;
-	padding:14px;
+	width:100%;
 }
 input[type="submit"] {
 	height:48px;
@@ -80,6 +83,7 @@ input[type="submit"] {
 	font-weight:bold;
 	background-color: rgb(39, 208, 127);
 	opacity: .5;
+	width: 100px;
 }
 input[type="submit"]:hover {
 	opacity: 1;
@@ -87,6 +91,9 @@ input[type="submit"]:hover {
 
 textarea{
 	min-height: 100px;
+	width:100%;
+	border-radius: 5px;
+	border:1px #CCC;
 }
 
 /* 
